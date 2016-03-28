@@ -1,0 +1,1 @@
+define("create_ul",["data"],function(){return console.log("create_ul"),function(a,t){t("body").add("ul").attr("class","gallery"),a.forEach(function(a,e,n){t("ul").append(t("<li>").attr("class","item").append(t("<img>").attr("src","images/"+a.image).attr("alt",a.title)).append(t("<span>").attr("class","counter").append(a.count)))})}});
