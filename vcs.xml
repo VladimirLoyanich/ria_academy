@@ -18,8 +18,16 @@
           <option name="url" value="https://github.com/VladimirLoyanich/ria_academy.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://git.ria.com:4455/GriadchenkoA/ria-analytics.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.ria.com:4455" />
+          <option name="userName" value="vladimirloyanich@gmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/WebstormProjects/pr1" />
+    <option name="cloneParentDir" value="$USER_HOME$/WebstormProjects/ria_analytics" />
   </component>
 </application>
