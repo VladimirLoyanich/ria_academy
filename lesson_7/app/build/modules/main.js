@@ -1,1 +1,0 @@
-define("main",["data","create_ul","set_on_click","jquery"],function(n,e,i,o){console.log("main"),e(n,o),i(o)}),define("modules/main",function(){});

@@ -1,1 +1,0 @@
-define("set_on_click",["data","create_ul"],function(){return console.log("set_on_click"),function(n){n("body").on("click","li",function(){var n=this.querySelector("span");n.innerText=Number(n.innerText)+1})}});

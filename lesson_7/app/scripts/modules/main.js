@@ -1,18 +1,23 @@
-/**
- * Created by student on 27.03.16.
- */
 define(
-    "main",
+    "modules/main",
     [
-        "data",
-        "create_ul",
-        "set_on_click",
+        "modules/create_ul",
+        "modules/set_on_click",
         "jquery"
     ],
-    function (data, create_ul, set_on_click, $){
-        console.log("main");
-        create_ul(data, $);
-        set_on_click($);
+    function (create_ul, set_on_click, $) {
+        function getData(){
+        return $.ajax({
+            url: "./files/data.json",
+            dataType: "json"
+        });
+    }
 
+        getData().done(function(data){
+            create_ul(data, $);
+            set_on_click($);
+        }, function(error){
+//            console.log("houston we have a problem "+error);
+        });
 
 });
